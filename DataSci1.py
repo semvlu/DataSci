@@ -34,4 +34,4 @@ for i in range(len(pred)):
     header.append([float(i), str(int(pred[i]))])
 
 res = DataFrame(header)
-res.to_csv("b10933001.csv", header=None, index=False, encoding='utf-8')
+res.to_csv("out.csv", header=None, index=False, encoding='utf-8')
